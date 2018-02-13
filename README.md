@@ -8,11 +8,11 @@ Understanding user agent concept and how to utilize it in the request
 
 ## Supporting Material
 * Beautifulsoup Document
-** https://www.crummy.com/software/BeautifulSoup/bs4/doc
+    * https://www.crummy.com/software/BeautifulSoup/bs4/doc
 * UMSI faculty website 
-** https://www.si.umich.edu/directory
-** https://www.si.umich.edu/directory?rid=4
-** https://www.si.umich.edu/directory?rid=All
+    * https://www.si.umich.edu/directory
+    * https://www.si.umich.edu/directory?rid=4
+    * https://www.si.umich.edu/directory?rid=All
 
 ## Starter Files
 We have provided you with the following files:
