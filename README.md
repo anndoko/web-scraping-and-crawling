@@ -1,5 +1,5 @@
-## SI 507/206
-#[Homework 7: Web Scraping & Crawling](https://docs.google.com/document/d/1R7brlJZ5RxRPHROxIkNBASIBMNiufqSnUxKNg-19FLo/edit?usp=sharing)
+# Homework 7: Web Scraping & Crawling
+[Google document](https://docs.google.com/document/d/1R7brlJZ5RxRPHROxIkNBASIBMNiufqSnUxKNg-19FLo/edit?usp=sharing)
 
 
 ## Homework Objectives
