@@ -1,5 +1,6 @@
 ## SI 507/206
-#Homework 7: Web Scraping & Crawling
+#[Homework 7: Web Scraping & Crawling](https://docs.google.com/document/d/1R7brlJZ5RxRPHROxIkNBASIBMNiufqSnUxKNg-19FLo/edit?usp=sharing)
+
 
 ## Homework Objectives
 Familiar with website structure and crawling page
