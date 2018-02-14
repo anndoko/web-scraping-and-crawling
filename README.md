@@ -99,7 +99,7 @@ Mich. reps want to ban conversion therapy, Aleanna Siacon, “11:33 a.m. ET Feb.
 
 ## Extra Credit 2 (2 points): Ann Arbor Boards & Commissions
 
-Crawl Ann Arbor Boards & Commissions and get a list of individuals ranked from most to least in terms of the number of boards and commissions they’re on. Each department has a page listing the name of individuals. You need to crawl the department listed on the Ann Arbor Boards & Commissions (https://a2gov.legistar.com/Departments.aspx). Please write out the result to file AABC.txt, in which line contains a person name.
+Crawl Ann Arbor Boards & Commissions and get a list of individuals ranked from most to least in terms of the number of boards and commissions they’re on. Each department has a page listing the name of individuals. You need to crawl the department listed on the Ann Arbor Boards & Commissions (https://a2gov.legistar.com/Departments.aspx). Please write out the result to file AABC.txt, in which each line contains a person name.
 
 ### Note: 
 * Ann Arbor Boards & Commissions
