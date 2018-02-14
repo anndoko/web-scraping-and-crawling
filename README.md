@@ -24,7 +24,7 @@ We have provided you with the following files:
 Please use these python files as a template to add your code. You can chose to use functions or not.
 
 
-## Part 1 (10 points): Crawling the UMSI faculty website with cache
+## Part 1 (15 points): Crawling the UMSI faculty website with cache
 
 Define an additional function called `get_umsi_data`. The function should access each page of the directory, get the HTML associated with it, and create a dictionary named `umsi_titles` whose keys are the names of each person in the UMSI directory, each of which is associated value is that person's title, e.g. "PhD Student" or "Associate Dean of Research and Arthur F. Thurnau Professor of Information, School of Information" 
 Then write out the dictionary to a file `directory_dict.json`. You might execute get_umsi_data multiple times and aggregate all the return dictionaries a dictionary.
@@ -55,7 +55,7 @@ We will test your code with the same website page thus it’s okay to utilize th
 
 
 
-## Part 2 (10 points): Analyze the data from part 1
+## Part 2 (5 points): Analyze the data from part 1
 
 With the directory_dict.json you have in part 1, this program should search the data you crawl to find the number of PhD students in the directory.
 
@@ -104,7 +104,8 @@ Crawl Ann Arbor Boards & Commissions and get a list of individuals ranked from m
 ### Note: 
 * Ann Arbor Boards & Commissions
 ** (https://a2gov.legistar.com/Departments.aspx) 
-* It might take a while to run this program. You can reduce the number to reduce the time while you’re testing your code. For example, run the first 5 departments to see whether the code works. Then run the all departments to have the correct answer.
+* It might take a while to run this program. **You can reduce the number to reduce the time** while you’re testing your code. For example, run the first 5 departments to see whether the code works. Then run the all departments to have the correct answer. **You might also implement cache** for the quicker process. (The cache is not required yet highly recommended.)
+
 * If you find there’s a space before ‘VACANCY’, that’s because the data of the website. You don’t need to do additional handling.
 
 ### Sample Command:
