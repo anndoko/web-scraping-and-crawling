@@ -34,7 +34,7 @@ For example, `my_dict_1 = {‘key1’: ‘value1’}` and `my_dict_2 = {‘key2�
 ### Note:
 * To get data from the UMSI site, you must have the headers parameter like so in your request, so that you will not get blocked by the site:  requests.get(base_url, headers={'User-Agent': 'SI_CLASS'})
 * **Please crawl one single page and make sure that works before crawling all pages**
-* **Please implement cache in the earlier stage** to prevent overwhelming crawling of the UMSI website. (The overwhelming crawling might shut down the website and then you cannot check the crawling program. **The deadline will not be extended because of the shut down problem.** Please see every query as a critical one.)
+* **Please implement cache** to prevent overwhelming crawling of the UMSI website. (The overwhelming crawling might shut down the website and then you cannot check the crawling program. **The deadline will not be extended because of the shut down problem.** Please see every query as a critical one.)
 * **Start as early as possible** to prevent the above situation.
 * You could crawl a single page to check your caching works and then crawling the rest of the pages.
 * If you want to crawl a certain page, the url has page as its parameters. e.g. https://www.si.umich.edu/directory?field_person_firstname_value=&field_person_lastname_value=&rid=All&page=11 
