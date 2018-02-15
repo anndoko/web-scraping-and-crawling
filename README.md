@@ -3,8 +3,8 @@
 
 
 ## Homework Objectives
-Familiar with website structure and crawling page
-Understanding user agent concept and how to utilize it in the request
+* Become competent with website structure and crawling page
+* Understanding user agent concept and how to utilize it in the request
 
 ## Supporting Material
 * Beautifulsoup Document
