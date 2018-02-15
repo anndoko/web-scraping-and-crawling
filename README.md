@@ -24,9 +24,9 @@ We have provided you with the following files:
 Please use these python files as a template to add your code. You can chose to use functions or not.
 
 
-## Part 1 (15 points): Crawling the UMSI faculty website with cache
+## Part 1 (15 points): Crawling the UMSI member (faculty, phD, staff) website with cache
 
-Define an additional function called `get_umsi_data`. The function should access each page of the directory, get the HTML associated with it, and create a dictionary named `umsi_titles` whose keys are the names of each person in the UMSI directory, each of which is associated value is that person's title, e.g. "PhD Student" or "Associate Dean of Research and Arthur F. Thurnau Professor of Information, School of Information" 
+Define an additional function called `get_umsi_data`. The function should access each page of the directory, get the HTML associated with it, and create a dictionary named `umsi_titles` whose keys are the names of each person in the UMSI directory, each of which is associated value is that person's title and their emails, e.g. "PhD Student" and ackerm@umich.edu or "Associate Dean of Research and Arthur F. Thurnau Professor of Information, School of Information" and eadar@umich.edu.
 Then write out the dictionary to a file `directory_dict.json`. You might execute get_umsi_data multiple times and aggregate all the return dictionaries a dictionary.
 For example, `my_dict_1 = {‘key1’: ‘value1’}` and `my_dict_2 = {‘key2’: ‘value2’}`, then the aggregate result would be `my_dict = {‘key1’: ‘value1’, ‘key2’: ‘value2’}`
 
@@ -40,6 +40,7 @@ For example, `my_dict_1 = {‘key1’: ‘value1’}` and `my_dict_2 = {‘key2�
 * If you want to crawl a certain page, the url has page as its parameters. e.g. https://www.si.umich.edu/directory?field_person_firstname_value=&field_person_lastname_value=&rid=All&page=11 
 You could copy paste the above url and have a sense about the relationship between the url and the web page. You could also change the number after `page=#` to see what’s going on.
 We will test your code with the same website page thus it’s okay to utilize the url provided above. Yet **don’t hardcode the inputs** of the function `get_umsi_data`.
+* The content of names, titles, and emails in the sample json files are fake.
 
 ### Sample Command:
 ```$ python hw6_part1.py ```
@@ -47,8 +48,9 @@ We will test your code with the same website page thus it’s okay to utilize th
 ### Sample `directory_dict.json`:
 ```
 {
-“Lindsay Blackwell”: “PhD Student”,
-“David Bloom”: “Adjunct Clinical Associate Professor of Information, School of Information”
+“Lindsay Blackwell”: {“title”: “PhD Student”, “email”: eadar@umich.edu},
+
+“David Bloom”: {“title”: “Adjunct Clinical Associate Professor of Information, School of Information”, “email”: “ackerm@umich.edu” },
 …
 }
 ```
