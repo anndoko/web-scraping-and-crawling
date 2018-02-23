@@ -62,21 +62,30 @@ def get_umsi_data(page):
         # get the name
         name_section = details_page_soup.find(class_ = "field-name-title")
         name = name_section.find("h2").text
-        print(name)
 
         # get the title
         title_section = details_page_soup.find(class_ = "field-name-field-person-titles")
         title = title_section.find(class_ = "field-item even").text
-        print(title)
 
         # get the email
         email_secntion = details_page_soup.find(class_ = "field-name-field-person-email")
         email = email_secntion.find("a")["href"]
-        print(email)
+
+        # store the data: name, title, email
+        umsi_titles[name] = {
+            "title": title,
+            "email": email
+        }
+
+    return umsi_titles # return the dictionary
+
 
 #### Execute funciton, get_umsi_data, here ####
-get_umsi_data(2)
-
-
+umsi_results = get_umsi_data(2)
 
 #### Write out file here #####
+print("Creating a file...")
+umsi_data_file = open("directory_dict.json", "w") # create a json file
+umsi_data_file.write(json.dumps(umsi_results, indent = 4)) # dump the dicitonary, format it with indents
+umsi_data_file.close() # close the file
+print("The file has been created successfully.")
