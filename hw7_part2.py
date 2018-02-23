@@ -12,4 +12,4 @@ for dic in data_dic.items():
 f.close() # close the file
 
 #### Your answer output (change the value in the variable, count)####
-print('The number of PhD students: ', count)
+print("The number of PhD students: ", count)
