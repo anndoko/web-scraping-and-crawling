@@ -1,4 +1,160 @@
 {
+    "Mohamed Abbadi": {
+        "title": "PhD student",
+        "email": "mailto:meabbadi@umich.edu"
+    },
+    "Mark Ackerman": {
+        "title": "George Herbert Mead Collegiate Professor of Human-Computer Interaction, Professor of Information, School of Information, Professor of Electrical Engineering and Computer Science, College of Engineering and Professor of Learning Health Sciences, Medical Sc",
+        "email": "mailto:ackerm@umich.edu"
+    },
+    "Eytan Adar": {
+        "title": "Associate Professor of Electrical Engineering and Computer Science, College of Engineering and Associate Professor of Information, School of Information",
+        "email": "mailto:eadar@umich.edu"
+    },
+    "Julia Adler-Milstein": {
+        "title": "Adjunct Associate Professor of Information and Research Investigator, School of Information",
+        "email": "mailto:juliaam@umich.edu"
+    },
+    "Wei Ai": {
+        "title": "PhD student",
+        "email": "mailto:aiwei@umich.edu"
+    },
+    "Rasha Alahmad": {
+        "title": "PhD student",
+        "email": "mailto:rashama@umich.edu"
+    },
+    "Tawfiq Ammari": {
+        "title": "PhD student",
+        "email": "mailto:tawfiqam@umich.edu"
+    },
+    "Marsha Antal": {
+        "title": "School Registrar",
+        "email": "mailto:mwhitish@umich.edu"
+    },
+    "Deborah Apsley": {
+        "title": "Director of Human Resources and Support Services",
+        "email": "mailto:apsley@umich.edu"
+    },
+    "Ryanne Arecheja": {
+        "title": " ",
+        "email": "mailto:ryannea@umich.edu"
+    },
+    "Daniel Atkins III": {
+        "title": "Professor Emeritus of Information, School of Information and Professor Emeritus of Electrical Engineering and Computer Science, College of Engineering",
+        "email": "mailto:atkins@umich.edu"
+    },
+    "Seyram Avle": {
+        "title": "Research Investigator, Information and Research Fellow, School of Information",
+        "email": "mailto:seyram@umich.edu"
+    },
+    "Todd Ayotte": {
+        "title": "Director of Finance",
+        "email": "mailto:ayotte@umich.edu"
+    },
+    "Alicia Baker": {
+        "title": "Administrative Assistant",
+        "email": "mailto:balicia@umich.edu"
+    },
+    "Vadim Besprozvany": {
+        "title": "Lecturer III in Information, School of Information",
+        "email": "mailto:vbesproz@umich.edu"
+    },
+    "Lindsay Blackwell": {
+        "title": "PhD student",
+        "email": "mailto:lblackw@umich.edu"
+    },
+    "David Bloom": {
+        "title": "Adjunct Clinical Associate Professor of Information, School of Information",
+        "email": "mailto:dcbloom@umich.edu"
+    },
+    "Francis Blouin Jr": {
+        "title": "Professor Emeritus of Information, School of Information and Professor Emeritus of History, College of Literature, Science, and the Arts",
+        "email": "mailto:fblouin@umich.edu"
+    },
+    "Walt Borland": {
+        "title": "Adjunct Clinical Associate Professor of Information, School of Information",
+        "email": "mailto:borland@umich.edu"
+    },
+    "Lia Bozarth": {
+        "title": "PhD student",
+        "email": "mailto:lbozarth@umich.edu"
+    },
+    "Leah Brand": {
+        "title": "Project Manager",
+        "email": "mailto:lbrand@umich.edu"
+    },
+    "Stephanie Brenton": {
+        "title": "Intermittent Lecturer in Information, School of Information",
+        "email": "mailto:slbrento@umich.edu"
+    },
+    "Robin Brewer": {
+        "title": "Assistant Professor/Postdoctoral/Presidential Fellow, School of Information",
+        "email": "mailto:rnbrew@umich.edu"
+    },
+    "Christopher Brooks": {
+        "title": "Research Assistant Professor, School of Information",
+        "email": "mailto:brooksch@umich.edu"
+    },
+    "Sophia Brueckner": {
+        "title": "Assistant Professor of Art and Design, Penny W Stamps School of Art and Design and Assistant Professor of Information, School of Information",
+        "email": "mailto:sbrueckn@umich.edu"
+    },
+    "Ceren Budak": {
+        "title": "Assistant Professor of Information, School of Information and Assistant Professor of Electrical Engineering and Computer Science, College of Engineering",
+        "email": "mailto:cbudak@umich.edu"
+    },
+    "Lorraine Buis": {
+        "title": "Assistant Professor of Family Medicine, Medical School and Assistant Professor of Information, School of Information",
+        "email": "mailto:buisl@umich.edu"
+    },
+    "Glenda Bullock": {
+        "title": "Associate Director of Communications",
+        "email": "mailto:gbullock@umich.edu"
+    },
+    "Ryan Burton": {
+        "title": "PhD student",
+        "email": "mailto:ryb@umich.edu"
+    },
+    "Ayse Buyuktur": {
+        "title": "Research Area Specialist, School of Information",
+        "email": "mailto:abuyuktu@umich.edu"
+    },
+    "Stacy Callahan": {
+        "title": "Financial Specialist Senior",
+        "email": "mailto:sacall@umich.edu"
+    },
+    "Nick Campbell": {
+        "title": "Assistant Director of Development",
+        "email": "mailto:campban@umich.edu"
+    },
+    "Samuel Carton": {
+        "title": "PhD student",
+        "email": "mailto:scarton@umich.edu"
+    },
+    "Kayla Carucci": {
+        "title": "PhD student",
+        "email": "mailto:kcarucci@umich.edu"
+    },
+    "Melissa Chalmers": {
+        "title": "PhD student",
+        "email": "mailto:mechalms@umich.edu"
+    },
+    "Priyank Chandra": {
+        "title": "PhD student",
+        "email": "mailto:prch@umich.edu"
+    },
+    "Daphne Chang": {
+        "title": "PhD student",
+        "email": "mailto:daphnec@umich.edu"
+    },
+    "Yan Chen": {
+        "title": "PhD student",
+        "email": "mailto:yanchenm@umich.edu"
+    },
+    "Jacques Chestnut": {
+        "title": " ",
+        "email": "mailto:jacqches@umich.edu"
+    },
     "Padma Chirumamilla": {
         "title": "PhD student",
         "email": "mailto:padmachi@umich.edu"
@@ -78,5 +234,245 @@
     "Luis Escareno": {
         "title": "Development and Alumni Relations Generalist",
         "email": "mailto:escareno@umich.edu"
+    },
+    "Veronica Falandino": {
+        "title": "Associate Director for Admissions and Student Affairs",
+        "email": "mailto:vvergoth@umich.edu"
+    },
+    "Thomas Finholt": {
+        "title": "Dean and Professor of Information, School of Information",
+        "email": "mailto:finholt@umich.edu"
+    },
+    "Barry Fishman": {
+        "title": "Arthur F Thurnau Professor, Professor of Education, School of Education and Professor of Information, School of Information",
+        "email": "mailto:fishman@umich.edu"
+    },
+    "Allen Flynn": {
+        "title": "PhD student",
+        "email": "mailto:ajflynn@umich.edu"
+    },
+    "Kathleen Folger": {
+        "title": "Librarian, Library Collections, University Library and Adjunct Lecturer in Information, School of Information",
+        "email": "mailto:kfolger@umich.edu"
+    },
+    "Kristin Fontichiaro": {
+        "title": "Clinical Associate Professor of  Information, School of Information",
+        "email": "mailto:font@umich.edu"
+    },
+    "Rebecca Frank": {
+        "title": "PhD student",
+        "email": "mailto:frankrd@umich.edu"
+    },
+    "Emmaline Frazier": {
+        "title": "Career Development Coordinator",
+        "email": "mailto:ebwise@umich.edu"
+    },
+    "Charles Friedman": {
+        "title": "Josiah Macy, Jr Professor of Medical Education, Chair, Department of Learning Health Sciences, Professor of Learning Health Sciences, Medical School, Professor of Information, School of Information and Professor of Health Management and Policy, School of ",
+        "email": "mailto:cpfried@umich.edu"
+    },
+    "Carolyn Frost": {
+        "title": "Professor Emerita of Information, School of Information",
+        "email": "mailto:cfrost@umich.edu"
+    },
+    "George Furnas": {
+        "title": "Professor of Information, School of Information, Professor of Electrical Engineering and Computer Science, College of Engineering and Prof of Psychology, College of Literature, Science and the Arts",
+        "email": "mailto:furnas@umich.edu"
+    },
+    "Patricia Garcia": {
+        "title": "Assistant Professor of Information, School of Information",
+        "email": "mailto:garciapg@umich.edu"
+    },
+    "Eric Gilbert": {
+        "title": "John Derby Evans Endowed Professor of Information and Associate Professor of Information, School of Information",
+        "email": "mailto:eegg@umich.edu"
+    },
+    "Elena Godin": {
+        "title": "Lecturer IV in Information, School of Information",
+        "email": "mailto:yelena@umich.edu"
+    },
+    "Iris Gomez-Lopez": {
+        "title": "Research Fellow, Information, School of Information",
+        "email": "mailto:ingomez@umich.edu"
+    },
+    "Carolyn Gregurich": {
+        "title": "HR Generalist",
+        "email": "mailto:cgreguri@umich.edu"
+    },
+    "Tamy Guberek": {
+        "title": "PhD student",
+        "email": "mailto:tamyg@umich.edu"
+    },
+    "Hannah Haley": {
+        "title": " ",
+        "email": "mailto:haleyhan@umich.edu"
+    },
+    "Brian Hall": {
+        "title": "PhD student",
+        "email": "mailto:briandh@umich.edu"
+    },
+    "Alexandra Haller": {
+        "title": " ",
+        "email": "mailto:amhaller@umich.edu"
+    },
+    "David Hanauer": {
+        "title": "Associate Professor of  Pediatrics and Communicable Diseases, Medical School and Clinical Associate Professor of Information, School of Information",
+        "email": "mailto:hanauer@umich.edu"
+    },
+    "Edward Happ": {
+        "title": "Lecturer IV in Information and Research Investigator, School of Information",
+        "email": "mailto:ehapp@umich.edu"
+    },
+    "Jean Hardy": {
+        "title": "PhD student",
+        "email": "mailto:jkhardy@umich.edu"
+    },
+    "Carl Haynes": {
+        "title": "PhD student",
+        "email": "mailto:cchaynes@umich.edu"
+    },
+    "Shiqing (Licia) He": {
+        "title": "PhD student",
+        "email": "mailto:heslicia@umich.edu"
+    },
+    "Margaret Hedstrom": {
+        "title": "Robert M Warner Collegiate Professor of Information, Professor of Information, School of Information and Faculty Associate, Institute for Social Research",
+        "email": "mailto:hedstrom@umich.edu"
+    },
+    "Libby Hemphill": {
+        "title": "Associate Professor of Information, School of Information and Research Associate Professor, Inter-University Consortium for Political and Social Research, Institute for Social Research",
+        "email": "mailto:libbyh@umich.edu"
+    },
+    "Michael Hess": {
+        "title": "Solution Architect Lead and Adjunct Lecturer in Information, Sch of Information, Director of Infrastructure ActiveStep, App Programmer/Analyst Ld, Family Medicine, Medical School",
+        "email": "mailto:mlhess@umich.edu"
+    },
+    "David Hessler": {
+        "title": "Professor Emeritus of Information, School of Information",
+        "email": "mailto:dwh@umich.edu"
+    },
+    "James Hilton": {
+        "title": "Arthur F Thurnau Professor, Vice Provost for Academic Innovation, Office of the Provost and Executive Vice President for Academic Affairs, Dean of Libraries, University Library, Professor of Information, School of Information and Faculty Associate, Resear",
+        "email": "mailto:hilton@umich.edu"
+    },
+    "Erik Hofer": {
+        "title": "Chief Information Officer and Clinical Assistant Professor of Information, School of Information",
+        "email": "mailto:ehofer@umich.edu"
+    },
+    "Lija Hogan": {
+        "title": "Intermittent Lecturer in Information, School of Information",
+        "email": "mailto:lija@umich.edu"
+    },
+    "Maurita Holland": {
+        "title": "Associate Professor Emerita of Information, School of Information",
+        "email": "mailto:mholland@umich.edu"
+    },
+    "Caitlin Holman": {
+        "title": "PhD student",
+        "email": "mailto:cholma@umich.edu"
+    },
+    "Evan Hoye": {
+        "title": " ",
+        "email": "mailto:hoyevan@umich.edu"
+    },
+    "Joey Hsiao": {
+        "title": "PhD student",
+        "email": "mailto:jcyhsiao@umich.edu"
+    },
+    "Chuan-Che Huang": {
+        "title": "PhD student",
+        "email": "mailto:chuanche@umich.edu"
+    },
+    "Julie Hui": {
+        "title": "Research Fellow, School of Information",
+        "email": "mailto:juliehui@umich.edu"
+    },
+    "Graham Hukill": {
+        "title": "Intermittent Lecturer in Information, School of Information",
+        "email": "mailto:gshukill@umich.edu"
+    },
+    "Pei-Yao Hung": {
+        "title": "PhD student",
+        "email": "mailto:peiyaoh@umich.edu"
+    },
+    "Linh Huynh": {
+        "title": "Academic Advisor",
+        "email": "mailto:lmhuynh@umich.edu"
+    },
+    "Bradley Iott": {
+        "title": "PhD student",
+        "email": "mailto:biott@umich.edu"
+    },
+    "Kelly Iott": {
+        "title": "Facilities Coordinator",
+        "email": "mailto:kmiott@umich.edu"
+    },
+    "Sheryl James": {
+        "title": "Public Relations Specialist",
+        "email": "mailto:sherylvi@umich.edu"
+    },
+    "Grace YoungJoo Jeon": {
+        "title": "Research Fellow, Information, School of Information",
+        "email": "mailto:yjeon@umich.edu"
+    },
+    "Craig Johnson": {
+        "title": "Web Software Developer",
+        "email": "mailto:tcjuom@umich.edu"
+    },
+    "Lynn Johnson": {
+        "title": "Professor of Dentistry, Department of Periodontics and Oral Medicine, Associate Dean for Faculty Affairs and Institutional Effectiveness, School of Dentistry and Clinical Professor of Information, School of Information",
+        "email": "mailto:lynjohns@umich.edu"
+    },
+    "Ju Yeon Jung": {
+        "title": "PhD student",
+        "email": "mailto:juyjung@umich.edu"
+    },
+    "David Jurgens": {
+        "title": "Assistant Professor of Information, School of Information",
+        "email": "mailto:jurgens@umich.edu"
+    },
+    "Shirley Kadoura": {
+        "title": "Project Coordinator",
+        "email": "mailto:shirles@umich.edu"
+    },
+    "Vaishnav Kameswaran": {
+        "title": "PhD student",
+        "email": "mailto:vaikam@umich.edu"
+    },
+    "Tsuyoshi Kano": {
+        "title": "PhD student",
+        "email": "mailto:tkano@umich.edu"
+    },
+    "Harmanpreet Kaur": {
+        "title": "PhD student",
+        "email": "mailto:harmank@umich.edu"
+    },
+    "Matthew Kay": {
+        "title": "Assistant Professor of Information, School of Information and Assistant Professor of Electrical Engineering and Computer Science, College of Engineering",
+        "email": "mailto:mjskay@umich.edu"
+    },
+    "Elizabeth Kaziunas": {
+        "title": "PhD student",
+        "email": "mailto:eskaziu@umich.edu"
+    },
+    "Devon Keen": {
+        "title": "Assistant Director of Outreach and Transfer Student Initiatives",
+        "email": "mailto:devaca@umich.edu"
+    },
+    "Sangmi Kim": {
+        "title": "PhD student",
+        "email": "mailto:sangmik@umich.edu"
+    },
+    "John Leslie King": {
+        "title": "William Warner Bishop Collegiate Professor of Information and Professor of Information, School of Information",
+        "email": "mailto:jlking@umich.edu"
+    },
+    "Predrag Klasnja": {
+        "title": "Assistant Professor of Information, School of Information",
+        "email": "mailto:klasnja@umich.edu"
+    },
+    "Daniel Klyn": {
+        "title": "Intermittent Lecturer I in Information, School of Information",
+        "email": "mailto:owilde@umich.edu"
     }
 }

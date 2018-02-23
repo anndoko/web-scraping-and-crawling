@@ -36,6 +36,13 @@ def make_request_using_cache(url):
         fw.close() # Close the open file
         return CACHE_DICTION[unique_ident]
 
+# ---------- Class ----------
+class Member:
+    def __init__(self, name, title, email):
+        self.name = name
+        self.title = title
+        self.email = email
+
 def get_umsi_data(page):
     #### Implement your function here ####
     # form the link
@@ -47,12 +54,11 @@ def get_umsi_data(page):
     page_text = make_request_using_cache(url)
     page_soup = BeautifulSoup(page_text, "html.parser")
 
-    # create an empty dictionary to store the data
-    umsi_titles = {}
-
     # get the Contact Detail links
     content_div = page_soup.find(class_ = "view-content")
     links_items = content_div.find_all(class_ = "field-name-contact-details")
+
+    results_lst = []
     for item in links_items:
         url_node = item.find("a")["href"] # get the node
         details_url = baseurl + url_node # form the link
@@ -71,21 +77,24 @@ def get_umsi_data(page):
         email_secntion = details_page_soup.find(class_ = "field-name-field-person-email")
         email = email_secntion.find("a")["href"]
 
-        # store the data: name, title, email
-        umsi_titles[name] = {
-            "title": title,
-            "email": email
-        }
+        # create an instance
+        results_lst.append(Member(name, title, email))
 
-    return umsi_titles # return the dictionary
+    return results_lst # return the dictionary
 
 
 #### Execute funciton, get_umsi_data, here ####
-umsi_results = get_umsi_data(2)
+umsi_titles = {}
+for i in range(6): 
+    for result in get_umsi_data(i):
+        umsi_titles[result.name]  = {
+            "title": result.title,
+            "email": result.email
+        }
 
 #### Write out file here #####
 print("Creating a file...")
 umsi_data_file = open("directory_dict.json", "w") # create a json file
-umsi_data_file.write(json.dumps(umsi_results, indent = 4)) # dump the dicitonary, format it with indents
+umsi_data_file.write(json.dumps(umsi_titles, indent = 4)) # dump the dicitonary, format it with indents
 umsi_data_file.close() # close the file
 print("The file has been created successfully.")
