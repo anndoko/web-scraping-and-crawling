@@ -85,7 +85,7 @@ def get_umsi_data(page):
 
 #### Execute funciton, get_umsi_data, here ####
 umsi_titles = {}
-for i in range(6): 
+for i in range(13): 
     for result in get_umsi_data(i):
         umsi_titles[result.name]  = {
             "title": result.title,
