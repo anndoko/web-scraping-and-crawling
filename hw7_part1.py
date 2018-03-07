@@ -83,9 +83,27 @@ def get_umsi_data(page):
     return results_lst # return the dictionary
 
 
+def get_page_number():
+    # form the link
+    baseurl = "https://www.si.umich.edu"
+    page = "/directory?rid=All"
+    url = baseurl + page
+
+    # scrap the webpage using BeautifulSoup
+    page_text = make_request_using_cache(url)
+    page_soup = BeautifulSoup(page_text, "html.parser")
+
+    # get the name
+    pager_item = page_soup.find(class_ = "pager-current")
+    last_page_num = pager_item.text[5:]
+
+    return int(last_page_num)
+
 #### Execute funciton, get_umsi_data, here ####
 umsi_titles = {}
-for i in range(13):
+page_number = get_page_number()
+
+for i in range(page_number):
     for result in get_umsi_data(i):
         umsi_titles[result.name]  = {
             "title": result.title,
